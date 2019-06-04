@@ -1,16 +1,16 @@
 " General Vim settings
 	syntax on
-
-
-	" use Space as leader key
-	map <Space> \
-
+	let mapleader=","
 	set autoindent
 	set tabstop=4
 	set shiftwidth=4
 	set dir=/tmp/
 	set relativenumber 
 	set number
+
+	highlight ColorColumn ctermbg=16 guibg=#FFFFFF
+
+	set colorcolumn=78,79
 
 	autocmd Filetype html setlocal sw=2 expandtab
 	autocmd Filetype javascript setlocal sw=4 expandtab
@@ -119,9 +119,5 @@
 	"Insert blank below and above
 
 " Fix for: https://github.com/fatih/vim-go/issues/1509
-
-"insert blank line above or below without moving cursor
-nnoremap <leader>o :call append(line('.'), '')<CR>
-nnoremap <leader>O :call append(line('.')-1, '')<CR>
 
 filetype plugin indent on
