@@ -1,6 +1,13 @@
 " General Vim settings
 	syntax on
-	let mapleader=","
+
+	" use Space as leader key
+	map <Space> \
+
+	"insert blank line above or below without moving cursor
+	nnoremap <leader>o :call append(line('.'), '')<CR>
+	nnoremap <leader>O :call append(line('.')-1, '')<CR>
+
 	set autoindent
 	set tabstop=4
 	set shiftwidth=4
@@ -35,8 +42,8 @@
 
 	set backspace=indent,eol,start
 
-	nnoremap <Space> za
-	nnoremap <leader>z zMzvzz
+	"nnoremap <Space> za
+	"nnoremap <leader>z zMzvzz
 
 	nnoremap vv 0v$
 
