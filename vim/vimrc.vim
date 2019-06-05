@@ -27,6 +27,8 @@
 
 	highlight MatchParen cterm=bold ctermfg=black ctermbg=white
 
+	highlight Search cterm=bold ctermfg=black ctermbg=yellow
+
 	set hlsearch
 	nnoremap <C-l> :nohl<CR><C-l>:echo "Search Cleared"<CR>
 	nnoremap <C-c> :set norelativenumber<CR>:set nonumber<CR>:echo "Line numbers turned off."<CR>
