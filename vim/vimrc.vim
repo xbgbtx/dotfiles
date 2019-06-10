@@ -25,7 +25,7 @@
 	set cursorline
 	hi Cursor ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold
 
-	highlight MatchParen cterm=bold ctermfg=black ctermbg=white
+	highlight MatchParen cterm=bold ctermfg=black ctermbg=blue
 
 	highlight Search cterm=bold ctermfg=black ctermbg=yellow
 
