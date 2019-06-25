@@ -8,6 +8,12 @@
 	nnoremap <leader>o :call append(line('.'), '')<CR>
 	nnoremap <leader>O :call append(line('.')-1, '')<CR>
 
+	"navigate windows with leader hjkl
+	nnoremap <leader>h <C-w>h
+	nnoremap <leader>j <C-w>j
+	nnoremap <leader>k <C-w>k
+	nnoremap <leader>l <C-w>l
+
 	set autoindent
 	set tabstop=4
 	set shiftwidth=4
@@ -147,3 +153,10 @@ Plug 'https://github.com/tpope/vim-surround'
 Plug 'https://github.com/tpope/vim-ragtag'
 
 call plug#end()
+
+
+" Ragtag
+
+inoremap <M-o>       <Esc>o
+inoremap <C-j>       <Down>
+let g:ragtag_global_maps = 1
