@@ -67,6 +67,9 @@
 	" Tabs
 		so ~/dotfiles/vim/tabs.vim
 
+	" Make
+		so ~/dotfiles/vim/makeprg.vim
+
 	" General
 		inoremap <leader>for <esc>Ifor (int i = 0; i < <esc>A; i++) {<enter>}<esc>O<tab>
 		inoremap <leader>if <esc>Iif (<esc>A) {<enter>}<esc>O<tab>
