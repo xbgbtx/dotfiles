@@ -14,6 +14,10 @@
 	nnoremap <leader>k <C-w>k
 	nnoremap <leader>l <C-w>l
 
+    "toggle spell with leader s
+    nnoremap <leader>s :set spell<CR>
+    nnoremap <leader>S :set nospell<CR>
+
 	set autoindent
 	set tabstop=4
 	set shiftwidth=4
@@ -106,13 +110,14 @@
 	inoremap <leader>q <ESC>:q<CR>
 	nnoremap <leader>q :q<CR>
 
-	inoremap <leader>x <ESC>:x<CR>
-	nnoremap <leader>x :x<CR>
+    "Save anq quit unmapped until good candidate key found
+	"inoremap <leader>x <ESC>:x<CR>
+	"nnoremap <leader>x :x<CR>
 
 	nnoremap <leader>e :Ex<CR>
-	nnoremap <leader>t :tabnew<CR>:Ex<CR>
+	nnoremap <leader>c :tabnew<CR>:Ex<CR>
 	nnoremap <leader>v :vsplit<CR>:w<CR>:Ex<CR>
-	nnoremap <leader>s :split<CR>:w<CR>:Ex<CR>
+	nnoremap <leader>x :split<CR>:w<CR>:Ex<CR>
 
 " Return to the same line you left off at
 	augroup line_return
