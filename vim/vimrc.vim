@@ -116,8 +116,17 @@
 
 	nnoremap <leader>e :Ex<CR>
 	nnoremap <leader>c :tabnew<CR>:Ex<CR>
+
 	nnoremap <leader>v :vsplit<CR>:w<CR>:Ex<CR>
 	nnoremap <leader>x :split<CR>:w<CR>:Ex<CR>
+
+    "Capital V/X splits multiple panes
+	nnoremap <leader>V :bo vsplit<CR>:w<CR>:Ex<CR>
+	nnoremap <leader>X :bo split<CR>:w<CR>:Ex<CR>
+
+    "Open new panes to the right and bottom
+    set splitbelow
+    set splitright
 
 " Return to the same line you left off at
 	augroup line_return
