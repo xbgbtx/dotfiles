@@ -27,6 +27,8 @@
 
 	highlight ColorColumn ctermbg=16 guibg=#FFFFFF
 
+    hi SpellBad term=reverse ctermfg=190 gui=undercurl ctermbg=88
+
 	set colorcolumn=78,79
 
 	autocmd Filetype html setlocal sw=2 expandtab
