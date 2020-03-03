@@ -186,3 +186,11 @@ nnoremap <leader>m :make!<CR><CR>:copen<CR>
 
 " Stip ansi
 nnoremap <leader>a :%s/\e\[[0-9;]*m//g<CR>
+
+set tabstop=3 softtabstop=0 expandtab shiftwidth=3 smarttab
+
+"let g:netrw_ftp_cmd="ftp -p"
+
+"Auto-doc binding
+let @d = '0"nyyf(b"mywO//:FUNC m n'
+nnoremap <leader>d @d
