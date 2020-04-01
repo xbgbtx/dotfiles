@@ -127,6 +127,9 @@
 	nnoremap <leader>e :Ex<CR>
 	nnoremap <leader>c :tabnew<CR>:Ex<CR>
 
+	nnoremap <leader>L :tabnext<CR>
+	nnoremap <leader>H :tabprev<CR>
+
 	nnoremap <leader>v :vsplit<CR>:w<CR>:Ex<CR>
 	nnoremap <leader>x :split<CR>:w<CR>:Ex<CR>
 
