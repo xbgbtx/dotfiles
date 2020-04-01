@@ -22,13 +22,12 @@
 	set tabstop=4
 	set shiftwidth=4
 	set dir=/tmp/
-	set relativenumber 
-	set number
 
    "Right edge
 	highlight ColorColumn ctermbg=8 cterm=bold guibg=#FFFFFF
 
     hi SpellBad term=reverse ctermfg=190 gui=undercurl ctermbg=88
+    hi SpellCap term=reverse ctermfg=190 gui=undercurl ctermbg=18
 
 	set colorcolumn=78,79
 
@@ -44,8 +43,16 @@
 
 	set hlsearch
 	nnoremap <C-l> :nohl<CR><C-l>:echo "Search Cleared"<CR>
-	nnoremap <C-c> :set norelativenumber<CR>:set nonumber<CR>:echo "Line numbers turned off."<CR>
-	nnoremap <C-n> :set relativenumber<CR>:set number<CR>:echo "Line numbers turned on."<CR>
+
+   "Automatically set relative numbers for focused window and normal
+   "numbers for others
+   set number relativenumber
+
+   augroup numbertoggle
+     autocmd!
+     autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+     autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+   augroup END
 
 	nnoremap n nzzzv
 	nnoremap N Nzzzv
