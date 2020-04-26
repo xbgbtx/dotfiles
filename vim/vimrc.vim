@@ -25,7 +25,8 @@
 	set relativenumber 
 	set number
 
-	highlight ColorColumn ctermbg=16 guibg=#FFFFFF
+   "Right edge
+	highlight ColorColumn ctermbg=8 cterm=bold guibg=#FFFFFF
 
     hi SpellBad term=reverse ctermfg=190 gui=undercurl ctermbg=88
 
@@ -185,3 +186,6 @@ let g:ragtag_global_maps = 1
 
 " Make keybind
 nnoremap <leader>m :make!<CR><CR>:copen<CR>
+
+" Stip ansi
+nnoremap <leader>a :%s/\e\[[0-9;]*m//g<CR>
