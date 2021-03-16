@@ -26,7 +26,7 @@
 	set number
 
    "Right edge
-	highlight ColorColumn ctermbg=8 cterm=bold guibg=#FFFFFF
+	highlight ColorColumn ctermbg=0 cterm=bold guibg=#FFFFFF
 
     hi SpellBad term=reverse ctermfg=190 gui=undercurl ctermbg=88
 
