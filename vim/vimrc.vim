@@ -77,6 +77,9 @@
 	" Make
 		so ~/dotfiles/vim/makeprg.vim
 
+   " Mergetool
+      so ~/dotfiles/vim/diff.vim
+
 	" General
 		inoremap <leader>for <esc>Ifor (int i = 0; i < <esc>A; i++) {<enter>}<esc>O<tab>
 		inoremap <leader>if <esc>Iif (<esc>A) {<enter>}<esc>O<tab>
