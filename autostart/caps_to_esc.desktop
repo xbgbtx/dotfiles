@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Caps to Escape
+Exec=xmodmap -e "keycode 66 = Escape" 
+Terminal=false
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Type=Application

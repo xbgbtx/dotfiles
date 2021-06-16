@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Disable Caps
+Exec=setxkbmap -option ctrl:nocaps
+Terminal=false
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Type=Application
