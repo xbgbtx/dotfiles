@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Remap Keys
+Exec=sh /home/boop/dotfiles/remap_keys.sh
+Terminal=false
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Type=Application
+
