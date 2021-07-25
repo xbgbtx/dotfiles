@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Caps to Escape
+Name=AltGr to Super_L
 Exec=xmodmap -e "keycode 108 = Super_L" 
 Terminal=false
 Hidden=false
