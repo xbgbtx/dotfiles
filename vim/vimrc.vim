@@ -187,8 +187,10 @@ inoremap <M-o>       <Esc>o
 inoremap <C-j>       <Down>
 let g:ragtag_global_maps = 1
 
-" Make keybind
-nnoremap <leader>m :make!<CR><CR>:copen<CR>
+" Make + quickfix keybind
+nnoremap <leader>m :make!<CR><CR>:copen<CR><CR>
+nnoremap <leader>n :cnext<CR>
+nnoremap <leader>N :cprev<CR>
 
 " Stip ansi
 nnoremap <leader>a :%s/\e\[[0-9;]*m//g<CR>

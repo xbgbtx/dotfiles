@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Remap Keys
-Exec=sh /home/boop/dotfiles/remap_keys.sh
+Exec=sh /home/boop/dotfiles/autostart/remap_keys.sh
 Terminal=false
 Hidden=false
 NoDisplay=false
