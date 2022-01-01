@@ -95,3 +95,6 @@ nnoremap <leader>N :cprev<CR>
 
 " Stip ansi
 nnoremap <leader>a :%s/\e\[[0-9;]*m//g<CR>
+
+nmap gD :ALEGoToDefinition<CR>
+nmap gd :ALEGoToDefinition -tab<CR>
