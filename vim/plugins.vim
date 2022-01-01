@@ -9,9 +9,9 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'https://github.com/tpope/vim-surround'
+source ~/dotfiles/vim/plugins/vim-surround.vim
+source ~/dotfiles/vim/plugins/vim-ragtag.vim
 
-Plug 'https://github.com/tpope/vim-ragtag'
 
 call plug#end()
 
