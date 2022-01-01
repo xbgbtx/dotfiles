@@ -10,3 +10,6 @@
 [submodule "tmux/tmux-conf"]
 	path = tmux/tmux-conf
 	url = https://github.com/SixArm/tmux-conf.git
+[submodule "zsh/plugins/dracula-theme"]
+	path = zsh/plugins/dracula-theme
+	url = https://github.com/dracula/zsh.git
