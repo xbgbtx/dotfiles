@@ -27,48 +27,16 @@ nnoremap L $
 nnoremap J G
 nnoremap K gg
 
-map <tab> %
-"nnoremap <Space> za
-"nnoremap <leader>z zMzvzz
-nnoremap vv 0v$
-nnoremap <leader><tab> :set list!<cr>
-" General
-inoremap <leader>for <esc>Ifor (int i = 0; i < <esc>A; i++) {<enter>}<esc>O<tab>
-inoremap <leader>if <esc>Iif (<esc>A) {<enter>}<esc>O<tab>
-
-
-" Java
-inoremap <leader>sys <esc>ISystem.out.println(<esc>A);
-vnoremap <leader>sys yOSystem.out.println(<esc>pA);
-
-" Java
-inoremap <leader>con <esc>Iconsole.log(<esc>A);
-vnoremap <leader>con yOconsole.log(<esc>pA);
-
-" C++
-inoremap <leader>cout <esc>Istd::cout << <esc>A << std::endl;
-vnoremap <leader>cout yOstd::cout << <esc>pA << std:endl;
-
-" C
-inoremap <leader>out <esc>Iprintf(<esc>A);<esc>2hi
-vnoremap <leader>out yOprintf(, <esc>pA);<esc>h%a
-
 " Typescript
 autocmd BufNewFile,BufRead *.ts set syntax=javascript
 autocmd BufNewFile,BufRead *.tsx set syntax=javascript
 
-" Markup
-inoremap <leader>< <esc>I<<esc>A><esc>yypa/<esc>O<tab>
-" File and Window Management 
+" Buffer management
 inoremap <leader>w <Esc>:w<CR>
 nnoremap <leader>w :w<CR>
 
 inoremap <leader>q <ESC>:q<CR>
 nnoremap <leader>q :q<CR>
-
-"Save anq quit unmapped until good candidate key found
-"inoremap <leader>x <ESC>:x<CR>
-"nnoremap <leader>x :x<CR>
 
 nnoremap <leader>e :Ex<CR>
 
