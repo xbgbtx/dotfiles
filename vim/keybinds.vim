@@ -82,7 +82,7 @@ nnoremap <leader>x :split<CR>:w<CR>:Ex<CR>
 "Capital V/X splits multiple panes
 nnoremap <leader>V :bo vsplit<CR>:w<CR>:Ex<CR>
 nnoremap <leader>X :bo split<CR>:w<CR>:Ex<CR>
-" Ragtag
+" Ragta_
 
 inoremap <M-o>       <Esc>o
 inoremap <C-j>       <Down>
@@ -90,10 +90,8 @@ let g:ragtag_global_maps = 1
 
 " Make, quickfix, localist bindings
 nnoremap <leader>m :make!<CR><CR>:copen<CR><CR>
-nnoremap <leader>n :lnext<CR>
-nnoremap <leader>p :lprev<CR>
-nnoremap <leader>N :cnext<CR>
-nnoremap <leader>P :cprev<CR>
+nnoremap <leader>n :lopen<CR>
+nnoremap <leader>N :copen<CR>
 
 " Stip ansi
 nnoremap <leader>a :%s/\e\[[0-9;]*m//g<CR>
