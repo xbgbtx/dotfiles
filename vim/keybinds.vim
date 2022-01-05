@@ -59,7 +59,9 @@ let g:ragtag_global_maps = 1
 " Make, quickfix, localist bindings
 nnoremap <leader>m :make!<CR><CR>:copen<CR><CR>
 nnoremap <leader>n :lopen<CR>
+nnoremap <leader>nq :lclose<CR>
 nnoremap <leader>N :copen<CR>
+nnoremap <leader>Nq :cclose<CR>
 
 " Stip ansi
 nnoremap <leader>a :%s/\e\[[0-9;]*m//g<CR>
