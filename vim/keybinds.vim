@@ -66,5 +66,9 @@ nnoremap <leader>Nq :cclose<CR>
 " Stip ansi
 nnoremap <leader>a :%s/\e\[[0-9;]*m//g<CR>
 
+" ALE language server protocol
 nmap gD :ALEGoToDefinition -tab<CR>
 nmap gd :ALEGoToDefinition<CR>
+
+" JSDoc
+nnoremap <leader>d :JsDoc<CR>
