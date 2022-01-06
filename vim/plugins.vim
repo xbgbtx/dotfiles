@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
 source ~/dotfiles/vim/plugins/vim-surround.vim
 source ~/dotfiles/vim/plugins/vim-ragtag.vim
 source ~/dotfiles/vim/plugins/ale.vim
+source ~/dotfiles/vim/plugins/jsdoc.vim
 
 
 call plug#end()
