@@ -50,8 +50,8 @@ nnoremap <leader>x :split<CR>:w<CR>:Ex<CR>
 "Capital V/X splits multiple panes
 nnoremap <leader>V :bo vsplit<CR>:w<CR>:Ex<CR>
 nnoremap <leader>X :bo split<CR>:w<CR>:Ex<CR>
-" Ragta_
 
+" Ragtag
 inoremap <M-o>       <Esc>o
 inoremap <C-j>       <Down>
 let g:ragtag_global_maps = 1
