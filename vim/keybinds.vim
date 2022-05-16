@@ -1,5 +1,5 @@
 " use Space as leader key
-map <Space> \
+let mapleader = "\<Space>"
 
 "insert blank line above or below without moving cursor
 nnoremap <leader>o :call append(line('.'), '')<CR>
