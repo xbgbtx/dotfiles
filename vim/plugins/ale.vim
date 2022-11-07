@@ -23,5 +23,5 @@ let g:ale_hover_cursor = 0
 
 let g:ale_pattern_options = {
           \'/home/boop/AL/AL-Workdir/*' : { 'ale_enabled' : 0},
-          \'/home/boop/AL/AL-Repos/*' : { 'ale_enabled' : 0},
+          \'/home/boop/AL-Repos/*' : { 'ale_enabled' : 0},
           \}
