@@ -5,7 +5,7 @@ Plug 'https://github.com/dense-analysis/ale'
 let g:ale_linters = { 'python': ['flake8'], 'javascript': ['eslint'] }
 
 let js_fixers = ['prettier', 'eslint']
-let g:ale_fixers = { 
+let g:ale_fixers = {
   \'python': ['black'],
   \'*': ['remove_trailing_lines', 'trim_whitespace'],
   \'javascript': js_fixers,
@@ -23,4 +23,5 @@ let g:ale_hover_cursor = 0
 
 let g:ale_pattern_options = {
           \'/home/boop/AL/AL-Workdir/*' : { 'ale_enabled' : 0},
+          \'/home/boop/AL/AL-Repos/*' : { 'ale_enabled' : 0},
           \}
