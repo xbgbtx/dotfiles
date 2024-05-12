@@ -72,3 +72,7 @@ nmap gd :ALEGoToDefinition<CR>
 
 " JSDoc
 nnoremap <leader>d :JsDoc<CR>
+
+" Show white space
+nnoremap <leader># :set listchars+=space:_<CR>:set list<CR>
+nnoremap <leader>~ :set nolist<CR>
